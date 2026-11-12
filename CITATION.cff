@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the article and this archive."
+title: "Development and internal validation of a random forest model for low or failed fertilization in conventional IVF"
+type: software
+# TODO: complete the repository URL before publishing.
+authors:
+  - family-names: "Zhu"
+    given-names: "Yiliang"
+    email: "3311878665@qq.com"
+  - family-names: "Li"
+    given-names: "Peng"
+    email: "corresponding.author.li@institution"  # corresponding author
+  - family-names: "Liu"
+    given-names: "Chuang"
+    email: "corresponding.author.liu@institution"  # corresponding author
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-12"
+repository-code: "https://github.com/<owner>/<repo>"
+keywords:
+  - conventional in vitro fertilization
+  - fertilization failure
+  - prediction model
+  - random forest
+  - SHAP
+  - internal validation
+abstract: >-
+  Analysis code for a retrospective cohort of 4,635 first conventional IVF cycles,
+  developing and internally validating a 10-predictor random forest for low
+  fertilization rate or total fertilization failure (2PN fertilization rate < 30%).
+  The pipeline covers data preparation, 30 multiple imputations, collinearity
+  diagnostics, two-stage model selection across nine algorithms, internal
+  validation, SHAP-based interpretation and generation of all manuscript figures
+  and tables.
+preferred-citation:
+  type: article
+  title: "Development and internal validation of a random forest model for low or failed fertilization in conventional IVF: a retrospective cohort study"
+  authors:
+    - family-names: "Zhu"
+      given-names: "Yiliang"
+      email: "3311878665@qq.com"
+    - family-names: "Li"
+      given-names: "Peng"
+      email: "corresponding.author.li@institution"  # corresponding author
+    - family-names: "Liu"
+      given-names: "Chuang"
+      email: "corresponding.author.liu@institution"  # corresponding author
+  journal: "<journal>"
+  year: 2026

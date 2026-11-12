@@ -1,0 +1,64 @@
+Package: ivfLFRTFF
+Type: Project
+Title: Random Forest Model for Low or Failed Fertilization in Conventional IVF
+Version: 1.0.0
+Date: 2026-11-12
+Authors@R: c(
+    # TODO: replace the repository URL in CITATION.cff before publishing.
+    person("Yiliang", "Zhu", role = c("aut", "cre"),
+           email = "3311878665@qq.com"),
+    person("Peng", "Li", role = "aut"),
+    person("Chuang", "Liu", role = "aut")
+  )
+Description: Analysis pipeline for a retrospective cohort of 4,635 first
+    conventional IVF cycles, developing and internally validating a
+    ten-predictor random forest model for low fertilization rate or total
+    fertilization failure, defined as a two-pronuclear fertilization rate
+    below 30 percent. Covers data preparation, multiple imputation,
+    collinearity diagnostics, two-stage model selection across nine
+    algorithms, internal validation, SHAP-based interpretation and generation
+    of all manuscript figures and tables.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.3.0)
+Imports:
+    tidymodels,
+    rlang,
+    parsnip,
+    recipes,
+    workflows,
+    tune,
+    dials,
+    rsample,
+    yardstick,
+    ranger,
+    xgboost,
+    lightgbm,
+    bonsai,
+    glmnet,
+    kernlab,
+    kknn,
+    nnet,
+    rpart,
+    dplyr,
+    tidyr,
+    tibble,
+    mice,
+    DALEX,
+    fastshap,
+    pROC,
+    PredictABEL,
+    nricens,
+    car,
+    olsrr,
+    corrplot,
+    ggplot2,
+    patchwork,
+    foreach,
+    doParallel,
+    doSNOW
+Suggests:
+    shiny
+Remotes:
+    dmlc/lightgbm
