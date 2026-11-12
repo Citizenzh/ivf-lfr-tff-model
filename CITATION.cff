@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use this code, please cite both the article and this archive."
 title: "Development and internal validation of a random forest model for low or failed fertilization in conventional IVF"
 type: software
-# TODO: complete the repository URL before publishing.
 authors:
   - family-names: "Zhu"
     given-names: "Yiliang"
@@ -16,7 +15,7 @@ authors:
 license: MIT
 version: "1.0.0"
 date-released: "2026-11-12"
-repository-code: "https://github.com/<owner>/<repo>"
+repository-code: "https://github.com/Citizenzh/ivf-lfr-tff-model"
 keywords:
   - conventional in vitro fertilization
   - fertilization failure

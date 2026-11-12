@@ -306,9 +306,8 @@ MIT. See `LICENSE`.
 
 First author: Yiliang Zhu (3311878665@qq.com).
 Corresponding authors: Peng Li, PhD, and Chuang Liu, PhD.
-Author details are recorded in `CITATION.cff` and `DESCRIPTION`; only the
-`repository-code` URL in `CITATION.cff` still needs to be filled in after the
-repository is created on GitHub.
+Author details are recorded in `CITATION.cff` and `DESCRIPTION`.
+Repository: https://github.com/Citizenzh/ivf-lfr-tff-model
 
 ## 12. Preparing the deposit
 

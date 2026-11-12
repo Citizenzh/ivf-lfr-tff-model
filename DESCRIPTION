@@ -4,7 +4,6 @@ Title: Random Forest Model for Low or Failed Fertilization in Conventional IVF
 Version: 1.0.0
 Date: 2026-11-12
 Authors@R: c(
-    # TODO: replace the repository URL in CITATION.cff before publishing.
     person("Yiliang", "Zhu", role = c("aut", "cre"),
            email = "3311878665@qq.com"),
     person("Peng", "Li", role = "aut"),

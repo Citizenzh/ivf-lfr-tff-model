@@ -124,4 +124,3 @@ if (length(risky) > 0) {
 }
 cat("\nNo cached row-level objects and no dataset in the deposit. Good to upload.\n")
 cat("Zip the directory, or upload its contents directly to GitHub.\n")
-cat("Remember to complete the repository-code URL in CITATION.cff first.\n")
