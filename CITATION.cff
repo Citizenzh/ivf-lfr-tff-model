@@ -8,10 +8,8 @@ authors:
     email: "3311878665@qq.com"
   - family-names: "Li"
     given-names: "Peng"
-    email: "corresponding.author.li@institution"  # corresponding author
   - family-names: "Liu"
     given-names: "Chuang"
-    email: "corresponding.author.liu@institution"  # corresponding author
 license: MIT
 version: "1.0.0"
 date-released: "2026-11-12"
@@ -40,9 +38,7 @@ preferred-citation:
       email: "3311878665@qq.com"
     - family-names: "Li"
       given-names: "Peng"
-      email: "corresponding.author.li@institution"  # corresponding author
     - family-names: "Liu"
       given-names: "Chuang"
-      email: "corresponding.author.liu@institution"  # corresponding author
   journal: "<journal>"
   year: 2026
